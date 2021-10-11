@@ -1,0 +1,51 @@
+[
+    {
+        "Name": "Mask",
+        "AccNumber": 1414,
+        "CreationDate": "2020-10-06T00:00:00",
+        "Balance": 1000.12,
+        "Loan": 0.0
+    },
+    {
+        "Name": "Mailow",
+        "AccNumber": 1234,
+        "CreationDate": "2002-12-18T00:00:00",
+        "Balance": 12000.0,
+        "Loan": 0.0
+    },
+    {
+        "Name": "Doggo",
+        "AccNumber": 727,
+        "CreationDate": "1993-05-08T00:00:00",
+        "Balance": 50.11,
+        "Loan": 0.0
+    },
+    {
+        "Name": "Yoshi",
+        "AccNumber": 1954,
+        "CreationDate": "2004-08-15T00:00:00",
+        "Balance": 75.0,
+        "Loan": 0.0
+    },
+    {
+        "Name": "KGM",
+        "AccNumber": 9009,
+        "CreationDate": "2021-10-11T00:00:00",
+        "Balance": 10000.0,
+        "Loan": 0.0
+    },
+    {
+        "Name": "ITM",
+        "AccNumber": 5903,
+        "CreationDate": "2021-10-11T00:00:00",
+        "Balance": 9999.0,
+        "Loan": 0.0
+    },
+    {
+        "Name": "OutroMailow",
+        "AccNumber": 1155,
+        "CreationDate": "2021-10-11T00:00:00-03:00",
+        "Balance": 121.99,
+        "Loan": 0.0
+    }
+]

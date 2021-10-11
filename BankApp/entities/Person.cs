@@ -8,14 +8,15 @@ namespace BankApp.entities
     {
         public string Name { get; set; }
         public int AccNumber { get; set; }
-        public DateTime AccDate { get; set; }
+        public DateTime CreationDate { get; set; }
         public double Balance { get; private set; }
+        public double Loan { get; set; }
 
         public Person(string name, int accNumber, DateTime accDate, double balance)
         {
             Name = name;
             AccNumber = accNumber;
-            AccDate = accDate;
+            CreationDate = accDate;
             Balance = balance;
         }
 
@@ -42,5 +43,16 @@ namespace BankApp.entities
                 Console.WriteLine(e.Message);
             }
         }
+
+        public void loan(double amount)
+        {
+            Loan += amount;
+        }
+
+        public override string ToString()
+        {
+            return $"Name: {Name} Account number: {AccNumber} Client since: {CreationDate:d} Balance: {Balance:c}";
+        }
+
     }
 }
